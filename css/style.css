@@ -233,7 +233,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px;
+  margin: 150px;
   gap: 30px;
 }
 .text-header > p:first-child {
@@ -248,7 +248,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin: 50px;
+  margin: 150px;
 }
 .left-middle-s3 {
   display: flex;
@@ -283,6 +283,14 @@
   height: 60px;
   border-radius: 14px;
 }
+.box-s3 > p:nth-child(2){
+  font-size: 20px;
+  font-weight: 700;
+}
+.box-s3 > p:nth-child(3){
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.377);
+}
 .box-s3>p>.video{
   background-color: #64B7F4  ;
 }
@@ -301,3 +309,87 @@
   padding: 10px;
   border-radius: 20px;
 }
+.right-s3>img{
+  width: 365px;
+  height: 433px;
+  margin-top: 50px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>> third section end<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>> fourth section start<<<<<<<<<<<<<<<<<<<<*/
+.section-4{
+  width: 1440px;
+  background-color: #008d96;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 150px;
+  gap: 120px;
+}
+.box1-s4{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.box2-s4>ul,
+.box3-s4>ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.box2-s4>ul>li>a,
+.box3-s4>ul>li>a{
+  text-decoration: none;
+  color: white;
+}
+.box4-s4{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+.box4-s4>a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.box4-s4>.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box4-s4>.bottom>input{
+  width: 290px;
+  height: 60px;
+  border-radius: 60px;
+  border: 1px solid white;
+}
+.box4-s4>.bottom>p{
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5AF15;
+  border-radius: 60px;
+  margin-left: -55px;
+  border:1px solid #FFAE01
+}
+.footer-bottom{
+  width: 1142px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+}
+.footer-bottom>p{
+  margin: 20px 0;
+}
+/*>>>>>>>>>>>>>>>>>>>>>> fourth section end<<<<<<<<<<<<<<<<<<<<*/
