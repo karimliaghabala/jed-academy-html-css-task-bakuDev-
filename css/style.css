@@ -113,7 +113,8 @@
   font-weight: bold;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>> first section end<<<<<<<<<<<<<<<<<<<<*/
-.section-2{
+/*>>>>>>>>>>>>>>>>>>>>>>> second section start<<<<<<<<<<<<<<<<<<<<*/
+.section-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,7 +207,7 @@
   justify-content: center;
   align-items: center;
 }
-.courses-s2{
+.courses-s2 {
   width: 230px;
   height: 55px;
   background-color: #008d96;
@@ -216,9 +217,87 @@
   align-items: center;
   margin: 30px 0;
 }
-.courses-s2>a{
+.courses-s2 > a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
   color: white;
+} /*>>>>>>>>>>>>>>>>>>>>>>> second section end<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>> third section start<<<<<<<<<<<<<<<<<<<<*/
+
+.section-3 {
+  width: 1440px;
+  background-color: #e3f1f2;
+}
+.text-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  gap: 30px;
+}
+.text-header > p:first-child {
+  font-size: 41px;
+  font-weight: 600;
+}
+.text-header > p:last-child {
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-s3 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px;
+}
+.left-middle-s3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+.box-s3 {
+  width: 296px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: white;
+}
+.left-s3,
+.middle-s3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.middle-s3 {
+  margin-top: 50px;
+}
+.box-s3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding:15px;
+}
+.box-s3 > p:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+}
+.box-s3>p>.video{
+  background-color: #64B7F4  ;
+}
+.box-s3>p>.task{
+  background-color: #F57170;
+}
+.box-s3>p>.money{
+  background-color: #46AB99  ;
+}
+.box-s3>p>.certf{
+  background-color: #FFAE01;
+}
+.box-s3>p>img{
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  border-radius: 20px;
 }
