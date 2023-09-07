@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BakuDev</title>
     <link rel="stylesheet" href="./css/kursContent.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="container">
@@ -115,11 +116,60 @@
                   diam tempus aliquet eu, pulvinar feugiat. Suscipit non viverra
                   dignissim dolor augue morbi
                 </p>
-                <p>$i = 1; // Создание переменной
-                  while ($i <= 10) { // Здесь только условие
-                    echo $i;
-                    $i++; // Увеличение переменной
+                <p>
+                  $i = 1; // Создание переменной<br />
+                  while ($i <= 10) { // Здесь только условие <br />
+                  echo $i;<br />
+                  $i++; // Увеличение переменной }
+                </p>
+                <p>Исходный код</p>
+                <p>Операторы в циклах</p>
+                <p>
+                  for($el = 100; $el > 10; $el /= 2) { <br />
+                  if($el < 15)<br />
+                  break;<br />
+
+                  if($el % 2 == 0)<br />
+                  continue;<br />
+
+                  echo $el.'<br />'; }
+                </p>
+                <p>Вывод массива</p>
+                <p>
+                  $list = [5, 7, 3, 8, "some", 45.7];<br />
+
+                  for($i = 0; $i < count($list); $i++)<br />
+                  echo "Element $i: $list[$i]";<br />
+                </p>
+                <p>
+                  <img
+                    src="./images/course-content-img/fluent_document-bullet-list-24-regular.svg"
+                    alt=""
+                  />Задание к уроку
+                </p>
+                <div class="text-content-rus">
+                  <p>Вывести в цикле</p>
+                  <p>Выведите столбец чисел от 16 до 23 с пропуском числа 21. Используйте цикл for, а также сделайте тоже самое с циклом while.</p>
+                  <p><a href="">Cavab<img src="./images/course-content-img/ic_round-keyboard-double-arrow-down.svg" alt=""> </a></p>
+                  <p>Код для цикла for:</p>
+                  <p>for ($i = 16; $i <= 23; $i++) {<br>
+                    if ($i == 21) <br>
+                      continue; <br>
+                  
+                    echo $i; <br>
                   }</p>
+                  <p>Код для цикла for:</p>
+                  <p>$i = 16; <br>
+                    while ($i <= 23) {<br>
+                      if ($i == 21) {<br>
+                        $i++;<br>
+                        continue;<br>
+                      }<br>
+                      
+                      echo $i;<br>
+                      $i++;<br>
+                    }</p>
+                </div>
               </div>
               <p>Oxşar kurslar</p>
             </div>
