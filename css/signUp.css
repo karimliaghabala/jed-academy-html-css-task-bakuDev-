@@ -194,13 +194,15 @@
   border-radius: 10px 0 0 10px;
 }
 .section-3>form>div:nth-child(4)>i,
-.section-3>form>div:nth-child(6)>i{
+.section-3>form>div:nth-child(6)>i,
+.section-3>form>div:nth-child(8)>i,
+.section-3>form>div:nth-child(10)>i{
   position: absolute;
   top: 15px;
   left: 15px;
 }
 
-.section-3>form>div:nth-child(7){
+.section-3>form>div:nth-child(11){
   position: relative;
   display: flex;
   justify-content: center;
@@ -211,15 +213,15 @@
   right: 213px;
   top: 2px;
 }
-.section-3>form>div:nth-child(9){
+.section-3>form>div:nth-child(12){
   width: 340px;
   display: flex;
   justify-content: center;
 }
-.section-3>form>div:nth-child(9)>a{
+.section-3>form>div:nth-child(12)>a{
   width: 250px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 .section-3>form p{
   width: 400px;
@@ -232,11 +234,10 @@
 }
 .section-3>form>input{
   background-color: #008D96  ;
-  width: 150px;
-  padding-right:100px ;
+  width: 180px;
+  padding-right:180px ;
   color: white;
   font-weight: 700;
-  
   cursor: pointer;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>> third section end<<<<<<<<<<<<<<<<<<<<*/
