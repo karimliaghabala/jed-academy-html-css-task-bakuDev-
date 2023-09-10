@@ -4,7 +4,8 @@
 }
 
 .container {
-  width: 1440px;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +52,11 @@
   width: 20px;
   height: 20px;
 }
-.curs,
+.curs>a{
+  text-decoration: none;
+  color: black;
+}
+.curs>a,
 .heart > p {
   font-size: 22px;
 }
