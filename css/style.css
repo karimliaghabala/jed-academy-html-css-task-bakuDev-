@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   background-color: #fafdfd;
+  transition: 800ms;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>> first section start<<<<<<<<<<<<<<<<<<<<*/
@@ -24,11 +25,20 @@
   flex-direction: column;
   align-items: center;
   margin: 38px 0;
+  transition: 800ms;
+  padding-bottom: 190px;
 }
 .navbar {
   width: 1140px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  background-color: #84d9dfa4;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 800ms;
+  transform: translateY(10px);
 }
 .navbar > img {
   width: 165px;
@@ -92,6 +102,7 @@
   width: 1140px;
   text-align: start;
   margin-top: 200px;
+  transition: 800ms;
 }
 .text > h1 {
   width: 514px;
@@ -147,6 +158,10 @@
   padding: 8px;
   border: 1px solid #008d96;
   border-radius: 8px;
+  transition: 800ms;
+}
+.nav-s2 > .right-nav > p:hover{
+  transform: translate(20px) scale(1.2);
 }
 .nav-s2 > .right-nav > p > a {
   font-size: 18px;

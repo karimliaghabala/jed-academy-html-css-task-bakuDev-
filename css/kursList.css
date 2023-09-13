@@ -26,6 +26,12 @@
   width: 1140px;
   display: flex;
   justify-content: space-between;
+  background-color: #84d9dfa4;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 800ms;
+  position: fixed;
+  z-index: 1;
 }
 .navbar > img {
   width: 165px;
@@ -44,6 +50,10 @@
 .heart > img {
   width: 24px;
   height: 24px;
+}
+.curs>a{
+  text-decoration: none;
+  color: black;
 }
 .curs > img {
   width: 20px;
@@ -89,6 +99,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 30px;
 }
 .back-home-page{
   width: 1440px;
@@ -146,6 +157,10 @@
   padding: 8px;
   border: 1px solid #008d96;
   border-radius: 8px;
+  transition: 800ms;
+}
+.section-2> .right-nav > p:hover{
+  transform: translate(20px) scale(1.2);
 }
 .section-2 > .right-nav > p > a {
   font-size: 18px;
@@ -172,6 +187,10 @@
   margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  transition: 800ms;
+}
+.content-s2>.box-s2:hover{
+  transform: translate(20px) scale(1.1) rotate(10deg);
 }
 .middle-s2 {
   display: flex;

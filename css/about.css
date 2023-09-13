@@ -26,6 +26,12 @@
   width: 1140px;
   display: flex;
   justify-content: space-between;
+  background-color: #84d9dfa4;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 800ms;
+  position: fixed;
+  z-index: 1;
 }
 .navbar > img {
   width: 165px;
@@ -52,6 +58,10 @@
 .curs,
 .heart > p {
   font-size: 22px;
+}
+.curs>a{
+  text-decoration: none;
+  color: black;
 }
 .heart > p {
   color: #008d96;
@@ -89,6 +99,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 30px;
 }
 .back-home-page{
   width: 1440px;
