@@ -218,6 +218,7 @@
   padding: 15px;
 }
 .form-s3-right>textarea{
+  resize:none;
   border: #939393;
   border-radius: 10px;
   width: 300px;
