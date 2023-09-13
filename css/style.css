@@ -17,14 +17,14 @@
 /*>>>>>>>>>>>>>>>>>>>>>>> first section start<<<<<<<<<<<<<<<<<<<<*/
 
 .section-1 {
-  width: 1440px;
+  width: 100% ;
   background-image: url(../images/section1-img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 38px 0;
+  margin-bottom: 38px;
   transition: 800ms;
   padding-bottom: 190px;
 }
@@ -34,6 +34,7 @@
   justify-content: space-between;
   position: fixed;
   z-index: 1;
+  top: -10px;
   background-color: #84d9dfa4;
   border-radius: 20px;
   padding: 10px;
