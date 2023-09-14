@@ -119,7 +119,9 @@
   width: 514px;
   font-size: 56px;
   margin-bottom: 30px;
+
 }
+
 .text > h1 > span {
   color: #f5af15;
 }
@@ -260,7 +262,7 @@
 /*>>>>>>>>>>>>>>>>>>>>>>> third section start<<<<<<<<<<<<<<<<<<<<*/
 
 .section-3 {
-  width: 1440px;
+  width: 100%;
   background-color: #e3f1f2;
 }
 .text-header {
@@ -352,7 +354,7 @@
 /*>>>>>>>>>>>>>>>>>>>>>>> third section end<<<<<<<<<<<<<<<<<<<<*/
 /*>>>>>>>>>>>>>>>>>>>>>> fourth section start<<<<<<<<<<<<<<<<<<<<*/
 .section-4{
-  width: 1440px;
+  width: 100%;
   background-color: #008d96;
   display: flex;
   flex-direction: column;

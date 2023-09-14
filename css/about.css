@@ -33,7 +33,16 @@
   position: fixed;
   z-index: 1;
   top: -10px;
+  animation: homepage 2s ;
 }
+  @keyframes homepage{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
 .navbar > img {
   width: 165px;
   height: 25px;
