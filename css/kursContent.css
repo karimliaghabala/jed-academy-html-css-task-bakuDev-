@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -16,7 +17,7 @@
 /*>>>>>>>>>>>>>>>>>>>>>>> first section start<<<<<<<<<<<<<<<<<<<<*/
 
 .section-1 {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,7 +113,7 @@
   padding-top: 30px;
 }
 .back-home-page {
-  width: 1440px;
+  width: 100%;
   background-color: #008d96;
   background-image: url(../images/list-course-img/image\ 8.svg);
   height: 150px;
@@ -129,7 +130,7 @@
 }
 .back-home-page > .back {
   background-color: #008c9683;
-  width: 1440px;
+  width: 100%;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -182,7 +183,7 @@
 }
 
 .content-text-course {
-  width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -411,7 +412,7 @@ p:nth-child(7){
 
 /*>>>>>>>>>>>>>>>>>>>>>> third section start<<<<<<<<<<<<<<<<<<<<*/
 .section-4 {
-  width: 1440px;
+  width: 100%;
   background-color: #008d96;
   display: flex;
   flex-direction: column;

@@ -16,7 +16,7 @@
 /*>>>>>>>>>>>>>>>>>>>>>>> first section start<<<<<<<<<<<<<<<<<<<<*/
 
 .section-1 {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +111,7 @@
   padding-top: 30px;
 }
 .back-home-page{
-  width: 1440px;
+  width: 100%;
   background-color: #008d96;
   background-image: url(../images/list-course-img/image\ 8.svg);
   height: 150px;
@@ -127,8 +127,8 @@
   color: white;
 }
 .back-home-page>.back{
+  width: 100%;
   background-color: #008c9683;
-  width: 1440px;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -242,7 +242,7 @@
 
 /*>>>>>>>>>>>>>>>>>>>>>> third section start<<<<<<<<<<<<<<<<<<<<*/
 .section-4{
-  width: 1440px;
+  width: 100%;
   background-color: #008d96;
   display: flex;
   flex-direction: column;

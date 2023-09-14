@@ -131,7 +131,7 @@
 }
 .back-home-page>.back{
   background-color: #008c9683;
-  width: 1440px;
+  width: 100%;
   height: 150px;
   display: flex;
   flex-direction: column;
